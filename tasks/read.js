@@ -24,6 +24,7 @@ module.exports = function(url,callback){
   });
 }
 
+/*
 module.exports('http://top.baidu.com/buzz?b=26&c=1',function(err,movies){
     console.log(movies);
-});
+});*/
