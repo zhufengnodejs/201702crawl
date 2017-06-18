@@ -5,4 +5,8 @@ let MovieSchema = new mongoose.Schema({
     name:String,
     url:String
 })
-module.exports = mongoose.model('Movie',MovieSchema);
+exports.Movie = mongoose.model('Movie',MovieSchema);
+/*
+module.exports.remove({},function(err){
+    console.log(err);
+});*/

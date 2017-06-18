@@ -1,7 +1,7 @@
 let read = require('./read');
 let write = require('./write');
 let async = require('async');
-let Movie = require('../model');
+let Movie = require('../model').Movie;
 let debug = require('debug')('crawl:main');
 let url = 'http://top.baidu.com/buzz?b=26&c=1';
 let start = function(){
@@ -20,3 +20,4 @@ let start = function(){
      debug('全部任务执行完毕!');
   });
 }
+start();
